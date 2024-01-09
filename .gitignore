@@ -385,3 +385,8 @@ FodyWeavers.xsd
 /Assets/photo_2023-12-21_18-38-50.jpg
 /Assets/photo_2023-12-21_18-38-54.jpg
 *.jpg
+/.vsconfig
+/022.sln
+/Assembly-CSharp-Editor.csproj
+/Assembly-CSharp.csproj
+/SantaClimb.sln
