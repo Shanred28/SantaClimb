@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1df70cb5725cc194f9074c073c90cf7b, type: 3}
+  m_Name: BFG
+  m_EditorClassIdentifier: 
+  m_Mode: 0
+  m_ProjectilePrefab: {fileID: 2154928750285931585, guid: ca058251d448906499fc2a9554d7a82f, type: 3}
+  m_RateOfFire: 0.9
+  spreadShootRange: 0
+  spreadShootDistanceFactor: 0
+  m_EnergyUsage: 0
+  energyAmountToStartFire: 0
+  energyRegenPerSecond: 0
+  m_AmmoUsage: 1
+  m_LaunchSFX: {fileID: 8300000, guid: e9edbefabca64c84ca323b0dfe5e5998, type: 3}
