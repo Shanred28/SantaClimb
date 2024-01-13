@@ -361,29 +361,14 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
-/Assets/Material
-/Assets/Model
-/Assets/Prefabs
-/Assets/RPG Monster DUO PBR Polyart
-/Assets/Scenes
-/Assets/Sound
-/Assets/TextMesh Pro
-/Assets/Sprite
-/Assets/Settings
-/Assets/TextMesh Pro 1/Resources/Fonts & Materials
-/Assets/UnityTechnologies/ParticlePack
-/Assets/Video
-/Assets/Г
-/Assets/Ылн
+
+
 /Build
 /Library
 /ProjectSettings
 /Temp
 /UserSettings
-/Assets/Material.mat
-/Assets/New Lighting Settings.lighting
-/Assets/photo_2023-12-21_18-38-50.jpg
-/Assets/photo_2023-12-21_18-38-54.jpg
+
 *.jpg
 /.vsconfig
 /022.sln
