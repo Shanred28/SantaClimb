@@ -3955,6 +3955,18 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4534558755273684658, guid: 92f8a92e5b2de244f9ddfadb35473fdd, type: 3}
+      propertyPath: _speedMoveAir
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4534558755273684658, guid: 92f8a92e5b2de244f9ddfadb35473fdd, type: 3}
+      propertyPath: _speedMoveFly
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4534558755273684658, guid: 92f8a92e5b2de244f9ddfadb35473fdd, type: 3}
+      propertyPath: _jumpSpeedHight
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 5597251412142103040, guid: 92f8a92e5b2de244f9ddfadb35473fdd, type: 3}
       propertyPath: targetCamera
       value: 

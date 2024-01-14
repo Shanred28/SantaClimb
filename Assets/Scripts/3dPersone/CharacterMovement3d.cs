@@ -10,7 +10,8 @@ public class CharacterMovement3d : MonoBehaviour
     [SerializeField] private float sprintSpeed;
     [SerializeField] private float amimingRanSpeed;
     //[SerializeField] private float crouchSpeed;*/
-    [SerializeField] private float jumpSpeed;
+    [SerializeField] private float _jumpSpeedHight;
+    [SerializeField] private float _speedMoveAir;   
     [SerializeField] private float accelerationRate;
     [SerializeField] private float _flyFallDead;
 
@@ -78,10 +79,15 @@ public class CharacterMovement3d : MonoBehaviour
             movementDirections = DirectionControl * GetCurrentSpeedByState();
             if (isJump == true)
             {
-                movementDirections.y = jumpSpeed;
+                movementDirections.y = _jumpSpeedHight;
                 isJump = false;
             }
 
+            movementDirections = transform.TransformDirection(movementDirections);
+        }
+        else
+        {
+            movementDirections = new Vector3(DirectionControl.x * _speedMoveAir, movementDirections.y, DirectionControl.z * _speedMoveAir);
             movementDirections = transform.TransformDirection(movementDirections);
         }
 
